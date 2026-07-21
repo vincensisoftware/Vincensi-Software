@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Vincensi 
+      <span>Software</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#services">Serviços</a>
+        <a href="#contact">Contato</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+
+      <div class="home-content">
+        <p>ㅤㅤ</p>
+        <h1> 
+          Transformamos ideias
+          em <span>soluções digitais</span>
+        </h1>
+        <h3> Desenvolvemos sites, sistemas web e soluções personalizadas para empresas <span>que desejam crescer e fortalecer sua presença online</span></h3>
+        <p>Na Vincensi Software unimos tecnologia, design e estratégia para criar projetos modernos, rápidos e pensados para gerar resultados reais para o seu negócio</p>
+
+        <div class="social-icons">
+          <a href="https://wa.me/5555999942064" target="_blank">
+        <i class="bx bxl-whatsapp"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/gleyson-vincensi-4478303a6" target="_blank">
+        <i class="bx bxl-linkedin-square"></i>
+          </a>
+          <a href="https://www.instagram.com/vincensisoftware" target="_blank">
+        <i class="bx bxl-instagram-alt"></i>
+          </a>
+          <a href="https://x.com/GleysonVincensi" target="_blank">
+        <i class="bx bxl-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/gleyson_vincensi" target="_blank">
+        <i class="bx bxl-instagram-alt"></i>
+          </a>
+        </div>
+
+        <div class="btn-group">
+          <a href="#services" class="btn">Conhecer Serviços</a>
+          <a href="#contact" class="btn">Solicitar Orçamento</a>
+        </div>
+
+
+
+      </div>
+
+      <div class="home-img">
+        <img src="Gleyson.jpeg" alt="">
+      </div>
+    </section>
+
+    <section class="about" id="about">
+
+      <div class="about-img">
+        <img src="Gleyson.jpeg" alt="">
+      </div>
+
+      <div class="about-content">
+        <h2>Sobre a Vincensi <span>Software</span></h2>
+        <p>A Vincensi Software é especializada no desenvolvimento de sites profissionais, landing pages e sistemas web personalizados. Nosso objetivo é ajudar empresas a transmitir mais credibilidade, melhorar sua presença digital e oferecer soluções tecnológicas que facilitam o dia a dia e impulsionam o crescimento dos negócios</p>
+        <a href="#contact" class="btn">Contato</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">Serviços</h2>
+
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bxs-devices"></i>
+            <h4>Desenvolvimento de Sites</h4>
+            <p>Criamos sites modernos, rápidos e totalmente responsivos, desenvolvidos para transmitir credibilidade e gerar novas oportunidades para sua empresa</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="services-conteiner">
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bxs-devices"></i>
+            <h4>Landing Pages</h4>
+            <p>Páginas estratégicas desenvolvidas para aumentar conversões em campanhas, lançamentos e captação de clientes</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="services-conteiner">
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bxs-devices"></i>
+            <h4>Sistemas Web</h4>
+            <p>Soluções personalizadas para automatizar processos, organizar informações e aumentar a produtividade do seu negócio</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="services-conteiner">
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bxs-devices"></i>
+            <h4>SEO</h4>
+            <p>Otimizamos seu site para melhorar seu posicionamento nos mecanismos de busca e aumentar sua visibilidade online</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="services-conteiner">
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bxs-devices"></i>
+            <h4>Suporte e Manutenção</h4>
+            <p>Atualizações, melhorias e suporte contínuo para garantir o funcionamento do seu site</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Vamos <span>Conversar?</span></h2>
+      <h1>Solicite um orçamento sem compromisso. Estamos prontos para entender sua <br>necessidade e desenvolver a melhor solução para sua empresa.</h1>
+
+      <form id="contact-form">
+
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" id="nome" placeholder="Nome Completo">
+            <input type="email" id="email" placeholder="Email">
+
+          </div>
+
+          <div class="input-box">
+            <input type="number" id="telefone" placeholder="Telefone">
+            <input type="text" id="assunto" placeholder="Assunto">
+          </div>
+        </div>
+
+        <div class="input-group-2">
+          <textarea id="mensagem" placeholder="Sua mensagem"></textarea>
+          <input type="submit" value="Enviar Mensagem" class="btn">
+        </div>
+
+      </form>
+
+    </section>
+
+    <footer class="footer">
+      <div class="social-icons">
+          <a href="https://wa.me/5555999942064" target="_blank">
+        <i class="bx bxl-whatsapp"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/gleyson-vincensi-4478303a6" target="_blank">
+        <i class="bx bxl-linkedin-square"></i>
+          </a>
+          <a href="https://www.instagram.com/vincensisoftware" target="_blank">
+        <i class="bx bxl-instagram-alt"></i>
+          </a>
+          <a href="https://x.com/GleysonVincensi" target="_blank">
+        <i class="bx bxl-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/gleyson_vincensi" target="_blank">
+        <i class="bx bxl-instagram-alt"></i>
+          </a>
+        </div>
+
+        <ul class="list">
+          <h2>Vincensi Software</h2>
+          <P>ㅤㅤ</P>
+          <P>Desenvolvimento de Sites • Sistemas Web • Soluções Digitais</P>
+          <P>ㅤㅤ </P>
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+           <li>
+            <a href="#services">Serviços </a>
+          </li>
+           <li>
+            <a href="#about">Sobre</a>
+          </li>
+           <li>
+            <a href="#contact">Contato</a>
+          </li>
+        </ul>
+        <p class="copyright">
+          @ Gleyson André Vincensi | Todos os direitos reservados
+        </p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
