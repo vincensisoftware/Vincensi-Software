@@ -376,8 +376,8 @@ section{
     align-items: center;
     text-align: center;
   }
-  .hone-img img{
-    width: 100vw;
+  .home-img img{
+    width: 60vw;
     max-width: 300px;
   }
   .about{
