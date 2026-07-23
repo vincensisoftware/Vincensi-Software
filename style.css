@@ -135,8 +135,6 @@ section{
     box-shadow: 0 0 25px var(--main-color);
 }
 .btn-group{
-  flex-direction: column;
-  width: 100%;
   display: flex;
   gap: 1.5rem;
 }
@@ -329,10 +327,20 @@ section{
   font-size: 16px;
 }
 
-@media(max-width:1024px){
+@media(max-width:768px){
   #menu-icon{
     display: block;
   }
+  .btn-group{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .btn{
+        width: 100%;
+        max-width: 320px;
+    }
   .navbar{
     position: absolute;
     top: 100%;
