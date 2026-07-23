@@ -376,10 +376,16 @@ section{
     align-items: center;
     text-align: center;
   }
-  .home-img img{
-    width: 60vw;
-    max-width: 300px;
-  }
+  .home-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-img img{
+    width: 80%;
+    max-width: 350px;
+}
   .about{
     flex-direction: column-reverse;
     text-align: center;
