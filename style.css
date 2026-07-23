@@ -329,6 +329,9 @@ section{
 }
 
 @media(max-width:768px){
+  body{
+    background: red;
+  }
   #menu-icon{
     display: block;
   }
